@@ -1,25 +1,376 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vasudev Brass - Premium Brass Components & Electrical Parts</title>
-    <meta name="description" content="Leading manufacturer of precision brass components, electrical parts, plumbing fittings, and industrial hardware. ISO 9001:2015 certified with 25+ years experience." />
-    <meta name="author" content="Vasudev Brass" />
+    <meta name="description" content="Leading manufacturer of precision brass components, electrical parts, plumbing fittings, and industrial hardware. ISO 9001:2015 certified with 25+ years experience.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +91 98765 43210</span>
+                <span><i class="fas fa-envelope"></i> info@vasudevbrass.com</span>
+                <span><i class="fas fa-map-marker-alt"></i> Jamnagar, Gujarat</span>
+            </div>
+        </div>
+    </div>
 
-    <meta property="og:title" content="Vasudev Brass - Premium Brass Components & Electrical Parts" />
-    <meta property="og:description" content="Leading manufacturer of precision brass components, electrical parts, plumbing fittings, and industrial hardware. ISO 9001:2015 certified with 25+ years experience." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Vasudev Brass</h1>
+                <span>Premium Quality Since 1998</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#quality" class="nav-link">Quality</a></li>
+                    <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@vasudevbrass" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Brass Components for Industrial Excellence</h1>
+                <p class="hero-subtitle">Leading manufacturer of precision brass components, electrical parts, and industrial hardware with 25+ years of expertise</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#contact" class="btn btn-secondary">Get Quote</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="product-showcase">
+                    <div class="product-card floating">
+                        <i class="fas fa-cog"></i>
+                        <span>Precision Parts</span>
+                    </div>
+                    <div class="product-card floating-delay">
+                        <i class="fas fa-bolt"></i>
+                        <span>Electrical Components</span>
+                    </div>
+                    <div class="product-card floating-alt">
+                        <i class="fas fa-wrench"></i>
+                        <span>Industrial Hardware</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Vasudev Brass</h2>
+                <p class="section-subtitle">Excellence in brass manufacturing since 1998</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-item slide-in-left">
+                        <div class="about-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div>
+                            <h3>25+ Years Experience</h3>
+                            <p>Established in 1998, we have been consistently delivering high-quality brass components to industries across India and internationally.</p>
+                        </div>
+                    </div>
+                    <div class="about-item slide-in-left delay-1">
+                        <div class="about-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div>
+                            <h3>ISO 9001:2015 Certified</h3>
+                            <p>Our commitment to quality is validated by international certifications and adherence to the highest manufacturing standards.</p>
+                        </div>
+                    </div>
+                    <div class="about-item slide-in-left delay-2">
+                        <div class="about-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <h3>Global Reach</h3>
+                            <p>Serving customers worldwide with our premium brass components and exceptional customer service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item scale-up">
+                        <h3 class="stat-number" data-target="1000">0</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat-item scale-up delay-1">
+                        <h3 class="stat-number" data-target="50">0</h3>
+                        <p>Product Categories</p>
+                    </div>
+                    <div class="stat-item scale-up delay-2">
+                        <h3 class="stat-number" data-target="25">0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-subtitle">Comprehensive range of precision brass components</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-category hover-lift">
+                    <div class="product-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Electrical Components</h3>
+                    <p>High-quality brass electrical parts including terminals, connectors, and switches designed for optimal conductivity and durability.</p>
+                    <ul>
+                        <li>Brass Terminals</li>
+                        <li>Electrical Connectors</li>
+                        <li>Switch Components</li>
+                        <li>Cable Lugs</li>
+                    </ul>
+                </div>
+                <div class="product-category hover-lift delay-1">
+                    <div class="product-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Plumbing Fittings</h3>
+                    <p>Precision-engineered brass plumbing components that ensure leak-proof connections and long-lasting performance.</p>
+                    <ul>
+                        <li>Brass Valves</li>
+                        <li>Pipe Fittings</li>
+                        <li>Compression Fittings</li>
+                        <li>Threaded Fittings</li>
+                    </ul>
+                </div>
+                <div class="product-category hover-lift delay-2">
+                    <div class="product-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Industrial Hardware</h3>
+                    <p>Robust brass hardware components for industrial applications, engineered for strength and corrosion resistance.</p>
+                    <ul>
+                        <li>Brass Fasteners</li>
+                        <li>Machine Components</li>
+                        <li>Custom Parts</li>
+                        <li>Precision Turned Parts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section id="quality" class="quality">
+        <div class="container">
+            <div class="quality-content">
+                <div class="quality-text">
+                    <h2 class="section-title">Quality Assurance</h2>
+                    <p class="section-subtitle">Committed to excellence in every component</p>
+                    <div class="quality-features">
+                        <div class="quality-feature fade-in">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ISO 9001:2015 Certified Manufacturing</span>
+                        </div>
+                        <div class="quality-feature fade-in delay-1">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Advanced Quality Testing Equipment</span>
+                        </div>
+                        <div class="quality-feature fade-in delay-2">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Component Inspection</span>
+                        </div>
+                        <div class="quality-feature fade-in delay-3">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Traceability Documentation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quality-image">
+                    <div class="quality-badge pulse">
+                        <i class="fas fa-medal"></i>
+                        <span>ISO 9001:2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section id="capabilities" class="capabilities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Capabilities</h2>
+                <p class="section-subtitle">Advanced manufacturing processes and technologies</p>
+            </div>
+            <div class="capabilities-grid">
+                <div class="capability-item slide-up">
+                    <div class="capability-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>CNC Machining</h3>
+                    <p>State-of-the-art CNC machines for precision manufacturing with tight tolerances.</p>
+                </div>
+                <div class="capability-item slide-up delay-1">
+                    <div class="capability-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Quality Testing</h3>
+                    <p>Advanced testing equipment ensuring every component meets international standards.</p>
+                </div>
+                <div class="capability-item slide-up delay-2">
+                    <div class="capability-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Custom Design</h3>
+                    <p>Engineering support for custom brass components tailored to your specifications.</p>
+                </div>
+                <div class="capability-item slide-up delay-3">
+                    <div class="capability-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Efficient production planning ensuring on-time delivery for all orders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch for quotes and inquiries</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item slide-in-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Industrial Area, Jamnagar,<br>Gujarat 361004, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item slide-in-left delay-1">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210<br>+91 98765 43211</p>
+                        </div>
+                    </div>
+                    <div class="contact-item slide-in-left delay-2">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@vasudevbrass.com<br>sales@vasudevbrass.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form slide-in-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Product Category</option>
+                            <option value="electrical">Electrical Components</option>
+                            <option value="plumbing">Plumbing Fittings</option>
+                            <option value="hardware">Industrial Hardware</option>
+                            <option value="custom">Custom Parts</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vasudev Brass</h3>
+                    <p>Leading manufacturer of precision brass components with 25+ years of expertise in delivering quality products worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#quality">Quality</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Electrical Components</a></li>
+                        <li><a href="#">Plumbing Fittings</a></li>
+                        <li><a href="#">Industrial Hardware</a></li>
+                        <li><a href="#">Custom Parts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Jamnagar, Gujarat</p>
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-envelope"></i> info@vasudevbrass.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vasudev Brass. All rights reserved. | ISO 9001:2015 Certified</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
